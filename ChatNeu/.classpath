@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="/Users/aliyurekkirmaz/Documents/simple-xml-2.7.1.jar"/>
+	<classpathentry kind="lib" path="/Users/aliyurekkirmaz/Documents/PlatinGUI_750_MacOSX_SP08_Intel_x86_64-80002494.jar"/>
+	<classpathentry kind="lib" path="/Users/aliyurekkirmaz/Documents/junit-jupiter-api-5.0.0-M1.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

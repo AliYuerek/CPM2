@@ -1,0 +1,34 @@
+.scene{
+	-fx-background-color: linear-gradient(to bottom, rgba(205,255,254,1) 0%, rgba(30,255,253,1) 50%, rgba(14,198,196,1) 100%);
+   -fx-border-color: blue blue yellow yellow;
+    -fx-border-width: 8;
+    -fx-border-radius: 0;
+    -fx-border-insets: 0;
+    -fx-border-style: solid line-join bevel line-cap round;
+    
+}
+.button{
+	-fx-background-color: linear-gradient(to bottom, lightgray, gray);
+	-fx-border-color: black;
+    -fx-border-width: 3.0px;
+    -fx-text-fill: black;   
+}
+.b{
+	-fx-background-color: red;
+	-fx-border-color: black;
+    -fx-border-width: 3.0px;
+    -fx-text-fill: black;   
+}
+.text{
+	-fx-font-family: "Comic Sans MS", cursive, sans-serif;
+	-fx-font-size: 12px;
+	-fx-letter-spacing: 0px;
+	-fx-word-spacing: 0px;
+	-fx-color: #000000;
+	-fx-font-weight: bold;
+	-fx-text-decoration: none;
+	-fx-font-style: normal;
+	-fx-font-variant: normal;
+	-fx-text-transform: none;
+
+}
