@@ -13,6 +13,12 @@
     -fx-border-width: 3.0px;
     -fx-text-fill: black;   
 }
+.button:hover{
+	-fx-background-color: linear-gradient(to bottom, lightgray, yellow);
+	-fx-border-color: black;
+    -fx-border-width: 3.0px;
+    -fx-text-fill: black;   
+}
 .b{
 	-fx-background-color: red;
 	-fx-border-color: black;
