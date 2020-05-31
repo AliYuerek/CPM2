@@ -1,6 +1,6 @@
 .scene{
-	-fx-background-color: linear-gradient(to bottom, rgba(205,255,254,1) 0%, rgba(30,255,253,1) 50%, rgba(14,198,196,1) 100%);
-   -fx-border-color: blue blue yellow yellow;
+    -fx-background-color: linear-gradient(to bottom, rgba(205,255,254,1) 0%, rgba(30,255,253,1) 50%, rgba(14,198,196,1) 100%);
+    -fx-border-color: blue blue yellow yellow;
     -fx-border-width: 8;
     -fx-border-radius: 0;
     -fx-border-insets: 0;
