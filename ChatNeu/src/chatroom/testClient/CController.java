@@ -47,8 +47,14 @@ public class CController {
 			
 			});
 		model.found9.addListener((observable, oldValue, newValue) ->{
-			if(!newValue) {
-				//view.btnConnect2.setDisable(false);		
+			if(newValue) {
+				Alert alert = new Alert(AlertType.WARNING);
+				alert.setTitle("Connection failed");
+				 
+		        alert.setContentText("Connection failed. Please try again!");
+		 
+		        alert.showAndWait();
+		        model.found9.setValue(false);
 			}
 		});
 		 view.group.selectedToggleProperty().addListener(new ChangeListener<Toggle>() {
