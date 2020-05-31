@@ -75,6 +75,8 @@ public class CView {
 		stage.setScene(scene1);
 		stage.setTitle("FHNW-Chat");	
 		stage.centerOnScreen();	
+		stage.setResizable(false);
+
 	}
 
 	protected void start() {
