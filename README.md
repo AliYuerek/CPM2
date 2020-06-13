@@ -1,5 +1,5 @@
 # CPM2
-Bei Import-Problemen folgen Sie dieser Import-Anleitung:
+Bei Import-Problemen folgen Sie dieser Anleitung:
 1. Bitte laden Sie das Dokument als Zip-File herunter.
 2. Öffnen Sie Eclipse und erstellen Sie ein neues JavaFx Projekt.
 3. Importieren Sie die heruntergeladene Zip-Datei als "File System", in das erstellte Projekt.
