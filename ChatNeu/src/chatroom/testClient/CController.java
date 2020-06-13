@@ -240,12 +240,6 @@ public class CController {
 			view.getStage().setScene(view.scene6);
 			model.sendMessage("ListChatrooms|"+model.token.getValue());
 		});
-		
-		model.getElements().addListener((ListChangeListener<String>) c -> {
-			while (c.next()) {
-				view.listView.scrollTo(c.getFrom());
-			}
-		});
 		view.btnCreateChat.setOnAction(event -> {
 			view.listView.getItems().clear();
 			model.sendMessage("ListChatrooms|"+model.token.getValue());
